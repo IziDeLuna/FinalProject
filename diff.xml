@@ -1,0 +1,12 @@
+<application>
+  <component name="DiffSettings">
+    <option name="PLACES_MAP">
+      <entry key="Default">
+        <PlaceSettings />
+      </entry>
+      <entry key="DirDiff">
+        <PlaceSettings />
+      </entry>
+    </option>
+  </component>
+</application>
