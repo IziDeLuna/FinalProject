@@ -528,12 +528,14 @@
     </library>
     <library name="mysql2 (v0.4.5, ruby-2.3.3-p222) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/mysql2/0.4.5" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5-x86-mingw32/ext" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5-x86-mingw32/lib" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5-x86-mingw32/vendor" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5-x86-mingw32/support" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/mysql2/0.4.5" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5-x86-mingw32/ext" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5-x86-mingw32/lib" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mysql2-0.4.5-x86-mingw32/vendor" />
