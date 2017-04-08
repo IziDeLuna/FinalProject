@@ -18,5 +18,11 @@
         <use-password>true</use-password>
       </ssh-properties>
     </data-source>
+    <data-source name="Rails Project4App: production" uuid="84e1e4b4-bf1e-444e-aef9-61fcf908948f">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+    </data-source>
   </component>
 </project>
