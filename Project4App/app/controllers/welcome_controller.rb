@@ -2,10 +2,10 @@ class WelcomeController < ApplicationController
   def homepage
   end
   @eid = nil
-
+  @supervisor = nil
   def login
 
-    @supervisor = nil
+
     @username = params[:login][:username]
     @password = params[:login][:password]
 
@@ -13,12 +13,12 @@ class WelcomeController < ApplicationController
 
 
     #search for the existance of @username and @password
-    @loginStatus = ActiveRecord::Base.connection.exec_query %Q{CALL pConfirmLogin('#@username','#@password')}
+    @loginStatus = ActiveRecord::Base.connection.exec_query %Q{CALL pConfirmLogin('#{@username}','#{@password}')}
     ActiveRecord::Base.clear_active_connections!
 
     if !@loginStatus[0].nil?
-      @eid = @loginStatus[0]["eid"]
-      @supervisor = @loginStatus[0]["supervisor"]
+      @eid = @loginStatus[0]['eid']
+      @supervisor = @loginStatus[0]['supervisor']
       session[:eid] = @eid
       session[:supervisor] = @supervisor
     end
@@ -31,7 +31,7 @@ class WelcomeController < ApplicationController
     elsif @supervisor == 0
       redirect_to(projects_viewProjects_url)
     else
-      render plain: "Invalid Username or Password"
+      render plain: 'Invalid Username or Password'
     end
   end
 
