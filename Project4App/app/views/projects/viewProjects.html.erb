@@ -1,0 +1,51 @@
+
+<nav class="navbar navbar-inverse" style="border-radius:0px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Project 4</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Projects</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="../welcome/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class ="jumbotron">
+    <h2>Welcome <%= @empfirstname %>.<br> </h2>
+    <p>You are currently assigned to the <b> <%= @currentProject %></b> project</p>
+
+    <p>
+      You are expected to report to your supervisor, <%= @supervisor %>
+      at the <%= @location %>. For more information click on the project details button
+    </p>
+    <input type="button" class="btn btn-primary" value="Project Details">
+  </div>
+  <h2>Future projects</h2>
+  <table class="table table-bordered table-hover">
+    <thead>
+      <td>Project Name</td>
+      <td>Supervisor</td>
+      <td>Start Date</td>
+      <td>End Date</td>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sample Project</td>
+        <td>Jeremy Johnson</td>
+        <td>10/10/17</td>
+        <td>10/14/17</td>
+      </tr>
+      <tr>
+        <td>December Project</td>
+        <td>Jeremy Johnson</td>
+        <td>12/01/17</td>
+        <td>12/24/17</td>
+      </tr>
+    </tbody>
+  </table>
+  <h1>LOOKIE LOOKIE <%= @results.as_json %></h1>
+</div>

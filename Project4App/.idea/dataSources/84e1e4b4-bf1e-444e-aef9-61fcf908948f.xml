@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Rails Project4App: production">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="project4">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <table id="6" parent="2" name="ar_internal_metadata"/>
+    <table id="7" parent="2" name="employee"/>
+    <table id="8" parent="2" name="employee_project"/>
+    <table id="9" parent="2" name="projects"/>
+    <table id="10" parent="2" name="schema_migrations"/>
+    <routine id="11" parent="2" name="pTestProcedure">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <routine id="12" parent="2" name="pGetEmployeeProjects">
+      <RoutineKind>procedure</RoutineKind>
+    </routine>
+    <column id="13" parent="6" name="key">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="14" parent="6" name="value">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="15" parent="6" name="created_at">
+      <Position>3</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="6" name="updated_at">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="17" parent="6" name="PRIMARY">
+      <ColNames>key</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="18" parent="7" name="eid">
+      <Position>1</Position>
+      <DataType>int(10) unsigned|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="19" parent="7" name="username">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="7" name="password">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="7" name="firstname">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="7" name="lastname">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="7" name="supervisor">
+      <Position>6</Position>
+      <DataType>int(1)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <index id="24" parent="7" name="eid_UNIQUE">
+      <ColNames>eid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="25" parent="7" name="PRIMARY">
+      <ColNames>eid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="26" parent="7" name="eid_UNIQUE">
+      <ColNames>eid</ColNames>
+      <UnderlyingIndexName>eid_UNIQUE</UnderlyingIndexName>
+    </key>
+    <column id="27" parent="8" name="eid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="8" name="pid">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="29" parent="8" name="PRIMARY">
+      <ColNames>eid
+pid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="9" name="pid">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="31" parent="9" name="pname">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="32" parent="9" name="start_date">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="33" parent="9" name="end_date">
+      <Position>4</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="34" parent="9" name="location">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <key id="35" parent="9" name="PRIMARY">
+      <ColNames>pid</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="10" name="version">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="37" parent="10" name="PRIMARY">
+      <ColNames>version</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <argument id="38" parent="12" name="eid">
+      <DataType>int(11)|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>
