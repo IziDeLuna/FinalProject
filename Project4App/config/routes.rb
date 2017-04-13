@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   get 'welcome/homepage'
   get post 'welcome/login'
+  get 'projects/viewProjects'
+  get 'welcome/logout'
 
   root 'welcome#homepage'
 
