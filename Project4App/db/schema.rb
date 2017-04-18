@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20170409144553) do
     t.string  "lastname",   limit: 45,             null: false
     t.integer "supervisor",            default: 0, null: false
     t.index ["eid"], name: "eid_UNIQUE", unique: true, using: :btree
+    t.index ["username"], name: "employee_username_uindex", unique: true, using: :btree
   end
 
   create_table "employee_project", primary_key: ["eid", "pid"], force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
@@ -26,12 +27,7 @@ ActiveRecord::Schema.define(version: 20170409144553) do
     t.integer "pid", null: false
   end
 
-  create_table "logins", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "viewProjects", primary_key: "pid", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
+  create_table "projects", primary_key: "pid", id: :integer, force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string "pname",      limit: 45
     t.string "start_date", limit: 45
     t.string "end_date",   limit: 45

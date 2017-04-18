@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def homepage
+
   end
   @eid = nil
   @supervisor = nil
@@ -21,13 +22,14 @@ class WelcomeController < ApplicationController
       @supervisor = @loginStatus[0]['supervisor']
       session[:eid] = @eid
       session[:supervisor] = @supervisor
+      session[:firstname] = @loginStatus[0]["firstname"]
     end
 
 
 
     #find level of account permissions and redirect to the appropriate view
     if @supervisor == 1
-      redirect_to(projects_viewProjects_url)
+      render plain: "THIS IS A SUPERVISOR ACCOUNT REDIRECT TO EMPLOYEE LIST"
     elsif @supervisor == 0
       redirect_to(projects_viewProjects_url)
     else

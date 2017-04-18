@@ -19,33 +19,34 @@
     <p>You are currently assigned to the <b> <%= @currentProject %></b> project</p>
 
     <p>
-      You are expected to report to your supervisor, <%= @supervisor %>
+      You are expected to report to your supervisor(s), <%= @firstsups %>
       at the <%= @location %>. For more information click on the project details button
     </p>
     <input type="button" class="btn btn-primary" value="Project Details">
   </div>
-  <h2>Future projects</h2>
+  <h2>Past and Future Projects</h2>
   <table class="table table-bordered table-hover">
     <thead>
       <td>Project Name</td>
-      <td>Supervisor</td>
+      <td>Supervisors</td>
       <td>Start Date</td>
       <td>End Date</td>
     </thead>
     <tbody>
+    <%iterate = 0%>
+    <%while iterate < @counter  do %>
       <tr>
-        <td>Sample Project</td>
-        <td>Jeremy Johnson</td>
-        <td>10/10/17</td>
-        <td>10/14/17</td>
+        <td>
+              <%= @employeeProjects[iterate]["pname"]%>
+        </td>
+        <td>
+         <%= @employeeProjects[iterate]["sups"]%>
+        </td>
+        <td><%= @employeeProjects[iterate]["start_date"]%></td>
+        <td><%= @employeeProjects[iterate]["end_date"]%></td>
       </tr>
-      <tr>
-        <td>December Project</td>
-        <td>Jeremy Johnson</td>
-        <td>12/01/17</td>
-        <td>12/24/17</td>
-      </tr>
+        <%iterate += 1%>
+    <%end%>
     </tbody>
   </table>
-  <h1>LOOKIE LOOKIE <%= @results.as_json %></h1>
 </div>
