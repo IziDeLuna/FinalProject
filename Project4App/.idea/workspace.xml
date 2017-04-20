@@ -2,19 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01158713-29b8-4819-a157-422c8c156352" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_metadata_/metadata_i" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_src_/schema/project4.zip" afterPath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/_src_/schema/project4.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IntelliLang.xml" afterPath="$PROJECT_DIR$/../IntelliLang.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Project4App.iml" afterPath="$PROJECT_DIR$/.idea/Project4App.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/storage.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/84e1e4b4-bf1e-444e-aef9-61fcf908948f/storage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__Project4App.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Development__Project4App.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__Project4App.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__Project4App.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__Project4App.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/spec__Project4App.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__Project4App.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/test__Project4App.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/employee.rb" afterPath="$PROJECT_DIR$/app/models/employee.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/employees/new.html.erb" afterPath="$PROJECT_DIR$/app/views/employees/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/viewProjects.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/viewProjects.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../_windows/applicationLibraries.xml" afterPath="$PROJECT_DIR$/../_windows/applicationLibraries.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../_windows/git.xml" afterPath="$PROJECT_DIR$/../_windows/git.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../_windows/keymap.xml" afterPath="$PROJECT_DIR$/../_windows/keymap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../_windows/laf.xml" afterPath="$PROJECT_DIR$/../_windows/laf.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../colors.scheme.xml" afterPath="$PROJECT_DIR$/../colors.scheme.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../databaseDrivers.xml" afterPath="$PROJECT_DIR$/../databaseDrivers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../databaseSettings.xml" afterPath="$PROJECT_DIR$/../databaseSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../debugger.xml" afterPath="$PROJECT_DIR$/../debugger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../editor.codeinsight.xml" afterPath="$PROJECT_DIR$/../editor.codeinsight.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../filetypes.xml" afterPath="$PROJECT_DIR$/../filetypes.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../inspection/Default.xml" afterPath="$PROJECT_DIR$/../inspection/Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ui.lnf.xml" afterPath="$PROJECT_DIR$/../ui.lnf.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web-browsers.xml" afterPath="$PROJECT_DIR$/../web-browsers.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,7 +54,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Project4App@Development__Project4App.coverage" NAME="Development: Project4App Coverage Results" MODIFIED="1492528976651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Project4App" />
+    <SUITE FILE_PATH="coverage/Project4App@Development__Project4App.coverage" NAME="Development: Project4App Coverage Results" MODIFIED="1492692274633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Project4App" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -112,8 +137,8 @@
       <file leaf-file-name="viewProjects.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/viewProjects.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="550">
+              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -122,8 +147,8 @@
       <file leaf-file-name="projects_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,8 +157,8 @@
       <file leaf-file-name="welcome_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="31" column="75" lean-forward="false" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+            <state relative-caret-position="132">
+              <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -160,8 +185,8 @@
         <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/projects/viewProjects.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/welcome_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
       </list>
     </option>
   </component>
@@ -179,9 +204,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
+    <option name="x" value="-10" />
     <option name="width" value="1612" />
-    <option name="height" value="870" />
+    <option name="height" value="852" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -274,8 +299,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="Scratches" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -491,11 +516,12 @@
       <workItem from="1492470115309" duration="7486000" />
       <workItem from="1492520589722" duration="122000" />
       <workItem from="1492522415510" duration="7375000" />
+      <workItem from="1492692259119" duration="1883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42787000" />
+    <option name="totallyTimeSpent" value="44670000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,15 +533,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1612" height="870" extended-state="0" />
-    <editor active="false" />
+    <frame x="-10" y="0" width="1612" height="852" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22626787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23016906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.49479845" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34087694" sideWeight="0.5253576" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3497823" sideWeight="0.46618986" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2119636" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956153" sideWeight="0.4973992" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34087694" sideWeight="0.4746424" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3497823" sideWeight="0.53381014" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42291373" sideWeight="0.4759428" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -574,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -861,14 +881,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/6d2b2cd/84e1e4b4-bf1e-444e-aef9-61fcf908948f/project4.schema_migrations">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -876,30 +896,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110">
           <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/viewProjects.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/viewProjects.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/welcome_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="31" column="75" lean-forward="false" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
+        <state relative-caret-position="132">
+          <caret line="7" column="58" lean-forward="false" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
           <folding />
         </state>
       </provider>

@@ -2,25 +2,27 @@ class WelcomeController < ApplicationController
   def homepage
 
   end
-  @eid = nil
+  #declare global variables
   @supervisor = nil
+
+  #runs when the login button is clicked on the login page
   def login
 
-
+    #retrieve parameters from html field on login page
     @username = params[:login][:username]
     @password = params[:login][:password]
 
 
 
 
-    #search for the existance of @username and @password
+    #search for the existence of @username and @password
     @loginStatus = ActiveRecord::Base.connection.exec_query %Q{CALL pConfirmLogin('#{@username}','#{@password}')}
     ActiveRecord::Base.clear_active_connections!
 
+    #if valid login store session variables
     if !@loginStatus[0].nil?
-      @eid = @loginStatus[0]['eid']
+      session[:eid] = @loginStatus[0]['eid']
       @supervisor = @loginStatus[0]['supervisor']
-      session[:eid] = @eid
       session[:supervisor] = @supervisor
       session[:firstname] = @loginStatus[0]["firstname"]
     end
@@ -37,6 +39,7 @@ class WelcomeController < ApplicationController
     end
   end
 
+  #runs when logout is clicked in the nav bar
   def logout
     session.clear
     redirect_to(welcome_homepage_url)
