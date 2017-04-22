@@ -31,7 +31,7 @@ class WelcomeController < ApplicationController
 
     #find level of account permissions and redirect to the appropriate view
     if @supervisor == 1
-      render plain: "THIS IS A SUPERVISOR ACCOUNT REDIRECT TO EMPLOYEE LIST"
+      redirect_to(employees_view_all_emp_url)
     elsif @supervisor == 0
       redirect_to(projects_viewProjects_url)
     else
