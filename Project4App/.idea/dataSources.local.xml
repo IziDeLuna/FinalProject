@@ -26,6 +26,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
+      <introspection-schemas>*:mysql,project4</introspection-schemas>
     </data-source>
   </component>
 </project>

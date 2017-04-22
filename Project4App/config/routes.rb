@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get post 'welcome/login'
   get 'projects/viewProjects'
   get 'welcome/logout'
+  get 'employees/view_all_emp'
 
   root 'welcome#homepage'
 

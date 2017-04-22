@@ -1,0 +1,47 @@
+
+<nav class="navbar navbar-inverse" style="border-radius:0px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Project 4</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Projects</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="../welcome/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class ="jumbotron">
+    <h2>Welcome to All Employees Page </h2>
+
+    <%= link_to '<button type="button">Add New Employee</button>'.html_safe, new_employees_url %>
+  </div>
+  <h2>Past and Future Projects</h2>
+  <table class="table table-bordered table-hover">
+    <thead>
+    <td>User Name</td>
+    <td>First Name</td>
+    <td>Last Name</td>
+    <td>Supervisor Date</td>
+    </thead>
+    <tbody>
+    <%iterate = 0%>
+    <%while iterate < @counter  do %>
+        <tr>
+          <td>
+            <%= @allEmpJson[iterate]["username"]%>
+          </td>
+          <td>
+            <%= @allEmpJson[iterate]["firstname"]%>
+          </td>
+          <td><%= @allEmpJson[iterate]["lastname"]%></td>
+          <td><%= @allEmpJson[iterate]["supervisor"]%></td>
+        </tr>
+        <%iterate += 1%>
+    <%end%>
+    </tbody>
+  </table>
+</div>
