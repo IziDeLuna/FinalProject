@@ -4,8 +4,10 @@ Rails.application.routes.draw do
   get 'projects/viewProjects'
   get 'welcome/logout'
   get 'employees/view_all_emp'
+  get 'employees/view_all_act_pro'
   get 'employees/view_all_pro'
-  get  'employees/add_pro_new'
+  get 'employees/add_pro_new'
+  get 'projects/assign_project'
   get post 'employees/add_pro_create'
 
   root 'welcome#homepage'
