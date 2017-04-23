@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get 'projects/viewProjects'
   get 'welcome/logout'
   get 'employees/view_all_emp'
+  get 'employees/view_all_pro'
+  get 'employees/add_pro'
 
   root 'welcome#homepage'
 
@@ -11,3 +13,20 @@ Rails.application.routes.draw do
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
