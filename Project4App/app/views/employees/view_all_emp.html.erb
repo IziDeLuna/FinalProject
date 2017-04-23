@@ -1,4 +1,6 @@
-
+<style>
+  .center {text-align: center; }
+</style>
 <nav class="navbar navbar-inverse" style="border-radius:0px;">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -14,14 +16,14 @@
 </nav>
 
 <div class="container">
-  <div class ="jumbotron">
+  <div class ="jumbotron center">
     <h2>Welcome to All Employees Page </h2>
 
     <%= link_to '<button type="button">Add New Employee</button>'.html_safe, new_employees_url %>
     <%= link_to '<button type="button">View All Projects</button>'.html_safe, employees_view_all_pro_url %>
 
   </div>
-  <h2>All Employees</h2>
+  <h2 class="center">All Employees</h2>
   <table class="table table-bordered table-hover">
     <thead>
     <td>User Name</td>
