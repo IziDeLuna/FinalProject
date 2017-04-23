@@ -21,14 +21,17 @@ class EmployeesController < ApplicationController
     redirect_to(employees_view_all_emp_url)
 
   end
-  def add_pro
+  def add_pro_new
+
+  end
+  def add_pro_create
 
     @pname = params[:add_pro][:pname]
     @start_date = params[:add_pro][:start_date]
     @end_date = params[:add_pro][:end_date]
     @location = params[:add_pro][:location]
 
-    @addpro = ActiveRecord::Base.connection.exec_query %Q{CALL pInsertIntopro('#{@pname}','#{@start_date}','#{@end_date}','#{@location}')}
+    @addpro = ActiveRecord::Base.connection.exec_query %Q{CALL pInsertIntoPro('#{@pname}','#{@start_date}','#{@end_date}','#{@location}')}
     ActiveRecord::Base.clear_active_connections!
 
     redirect_to(employees_view_all_pro_url)

@@ -5,7 +5,8 @@ Rails.application.routes.draw do
   get 'welcome/logout'
   get 'employees/view_all_emp'
   get 'employees/view_all_pro'
-  get 'employees/add_pro'
+  get  'employees/add_pro_new'
+  get post 'employees/add_pro_create'
 
   root 'welcome#homepage'
 
