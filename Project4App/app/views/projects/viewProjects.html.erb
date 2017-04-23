@@ -37,13 +37,17 @@
     <%while iterate < @counter  do %>
       <tr>
         <td>
-              <%= @employeeProjects[iterate]["pname"]%>
+          <%= @employeeProjects[iterate]["pname"]%>
         </td>
         <td>
-         <%= @employeeProjects[iterate]["sups"]%>
+          <%= @employeeProjects[iterate]["sups"]%>
         </td>
-        <td><%= @employeeProjects[iterate]["start_date"]%></td>
-        <td><%= @employeeProjects[iterate]["end_date"]%></td>
+        <td>
+          <%= @employeeProjects[iterate]["start_date"]%>
+        </td>
+        <td>
+          <%= @employeeProjects[iterate]["end_date"]%>
+        </td>
       </tr>
         <%iterate += 1%>
     <%end%>
