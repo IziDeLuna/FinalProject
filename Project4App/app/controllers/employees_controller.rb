@@ -21,6 +21,20 @@ class EmployeesController < ApplicationController
     redirect_to(employees_view_all_emp_url)
 
   end
+  def add_pro
+
+    @pname = params[:add_pro][:pname]
+    @start_date = params[:add_pro][:start_date]
+    @end_date = params[:add_pro][:end_date]
+    @location = params[:add_pro][:location]
+
+    @addpro = ActiveRecord::Base.connection.exec_query %Q{CALL pInsertIntopro('#{@pname}','#{@start_date}','#{@end_date}','#{@location}')}
+    ActiveRecord::Base.clear_active_connections!
+
+    redirect_to(employees_view_all_pro_url)
+
+
+  end
   def view_all_emp
 
     @allEmp = ActiveRecord::Base.connection.exec_query %Q{CALL eGetAllEmp()}
@@ -32,5 +46,15 @@ class EmployeesController < ApplicationController
 
 
 
+  end
+
+  def view_all_pro
+
+    @allPro = ActiveRecord::Base.connection.exec_query %Q{CALL pGetAllPro()}
+    ActiveRecord::Base.clear_active_connections!
+
+    @allProJson = @allPro.as_json
+
+    @count = @allProJson.length
   end
 end

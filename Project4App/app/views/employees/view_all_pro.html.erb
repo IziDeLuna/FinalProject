@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-inverse" style="border-radius:0px;">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -17,29 +16,30 @@
   <div class ="jumbotron">
     <h2>Welcome to All Employees Page </h2>
 
-    <%= link_to '<button type="button">Add New Employee</button>'.html_safe, new_employees_url %>
-    <%= link_to '<button type="button">View All Projects</button>'.html_safe, employees_view_all_pro_url %>
+    <%= link_to '<button type="button">Add A Project</button>'.html_safe, employees_view_all_pro_url %>
+    <%= link_to '<button type="button">View All Employees</button>'.html_safe, employees_view_all_emp_url %>
+
   </div>
-  <h2>All Employees</h2>
+  <h2>All Projects</h2>
   <table class="table table-bordered table-hover">
     <thead>
-    <td>User Name</td>
-    <td>First Name</td>
-    <td>Last Name</td>
-    <td>Supervisor Date</td>
+    <td>Project Name</td>
+    <td>Start Date</td>
+    <td>End Date</td>
+    <td>Location </td>
     </thead>
     <tbody>
     <%iterate = 0%>
-    <%while iterate < @counter  do %>
+    <%while iterate < @count  do %>
         <tr>
           <td>
-            <%= @allEmpJson[iterate]["username"]%>
+            <%= @allProJson[iterate]["pname"]%>
           </td>
           <td>
-            <%= @allEmpJson[iterate]["firstname"]%>
+            <%= @allProJson[iterate]["start_date"]%>
           </td>
-          <td><%= @allEmpJson[iterate]["lastname"]%></td>
-          <td><%= @allEmpJson[iterate]["supervisor"]%></td>
+          <td><%= @allProJson[iterate]["end_date"]%></td>
+          <td><%= @allProJson[iterate]["location"]%></td>
         </tr>
         <%iterate += 1%>
     <%end%>
