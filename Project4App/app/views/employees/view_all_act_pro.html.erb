@@ -17,12 +17,22 @@
 </nav>
 <div class="container">
   <div class ="jumbotron center">
-    <h2 >Welcome to All Employees Page </h2>
+    <h2 >Welcome to Active Projects Page </h2>
 
     <%= link_to '<button type="button">View All Employee</button>'.html_safe, new_employees_url %>
     <%= link_to '<button type="button">View All Projects</button>'.html_safe, employees_view_all_pro_url %>
-
+    <%= link_to '<button type="button">Assign A New Project</button>'.html_safe, employees_view_all_act_pro_url%>
   </div>
-  <h2>All Assigned Projects</h2>
+  <h2 class="center">All Active Projects</h2>
 
+  <table class="table table-bordered table-hover">
+    <thead>
+    <td>Employee Name</td>
+    <td>Project</td>
+    <td>Supervisor</td>
+    </thead>
+
+
+
+  </table>
 </div>

@@ -15,12 +15,13 @@
   </div>
 </nav>
 
-<div class="container">
-  <div class ="jumbotron center">
+<div class="container center">
+  <div class ="jumbotron ">
     <h2>Welcome to All Employees Page </h2>
 
     <%= link_to '<button type="button">Add New Employee</button>'.html_safe, new_employees_url %>
     <%= link_to '<button type="button">View All Projects</button>'.html_safe, employees_view_all_pro_url %>
+    <%= link_to '<button type="button">View All Active Projects</button>'.html_safe, employees_view_all_act_pro_url%>
 
   </div>
   <h2 class="center">All Employees</h2>
@@ -41,13 +42,18 @@
           <td>
             <%= @allEmpJson[iterate]["firstname"]%>
           </td>
-          <td><%= @allEmpJson[iterate]["lastname"]%></td>
-          <td><%= @allEmpJson[iterate]["supervisor"]%></td>
+          <td>
+            <%= @allEmpJson[iterate]["lastname"]%>
+          </td>
+          <td>
+            <%= @allEmpJson[iterate]["supervisor"]%>
+          </td>
         </tr>
         <%iterate += 1%>
     <%end%>
     </tbody>
   </table>
 
-  <%= link_to '<button type="button">View All Active Projects</button>'.html_safe, employees_view_all_act_pro_url%>
+
+
 </div>

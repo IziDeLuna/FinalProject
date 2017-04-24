@@ -1,4 +1,6 @@
-
+<style>
+  .center {text-align: center; }
+</style>
 <nav class="navbar navbar-inverse" style="border-radius:0px;">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -13,7 +15,7 @@
   </div>
 </nav>
 
-<div class="container">
+<div class="container center">
   <div class ="jumbotron">
     <h2>Welcome <%= @empfirstname %>.<br> </h2>
     <p>You are currently assigned to the <b> <%= @currentProject %></b> project</p>
@@ -24,7 +26,7 @@
     </p>
     <input type="button" class="btn btn-primary" value="Project Details">
   </div>
-  <h2>Past and Future Projects</h2>
+  <h2 class="center">Past and Future Projects</h2>
   <table class="table table-bordered table-hover">
     <thead>
       <td>Project Name</td>
