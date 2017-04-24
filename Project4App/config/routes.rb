@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get 'employees/view_all_pro'
   get  'employees/add_pro_new'
   get post 'employees/add_pro_create'
+  post 'employees/delete_pro'
+  post 'employees/delete_emp'
 
   root 'welcome#homepage'
 
