@@ -43,18 +43,9 @@
           <td>
             <%= @allEmpJson[iterate]["firstname"]%>
           </td>
-<<<<<<< HEAD
           <td><%= @allEmpJson[iterate]["lastname"]%></td>
           <td><%= @allEmpJson[iterate]["supervisor"]%></td>
           <td><%= link_to "delete", employees_delete_emp_path(@allEmpJson[iterate]["eid"]), method: :POST%></td>
-=======
-          <td>
-            <%= @allEmpJson[iterate]["lastname"]%>
-          </td>
-          <td>
-            <%= @allEmpJson[iterate]["supervisor"]%>
-          </td>
->>>>>>> origin/master
         </tr>
         <%iterate += 1%>
     <%end%>
