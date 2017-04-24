@@ -27,6 +27,7 @@
     <td>Start Date</td>
     <td>End Date</td>
     <td>Location </td>
+    <td>Delete </td>
     </thead>
     <tbody>
     <%iterate = 0%>
@@ -40,6 +41,7 @@
           </td>
           <td><%= @allProJson[iterate]["end_date"]%></td>
           <td><%= @allProJson[iterate]["location"]%></td>
+          <td><%= link_to "delete", employees_delete_pro_path(@allProJson[iterate]["pid"]), method: :POST%></td>
         </tr>
         <%iterate += 1%>
     <%end%>

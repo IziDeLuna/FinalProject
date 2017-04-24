@@ -27,6 +27,7 @@
     <td>First Name</td>
     <td>Last Name</td>
     <td>Supervisor Date</td>
+    <td>Delete Date</td>
     </thead>
     <tbody>
     <%iterate = 0%>
@@ -40,6 +41,7 @@
           </td>
           <td><%= @allEmpJson[iterate]["lastname"]%></td>
           <td><%= @allEmpJson[iterate]["supervisor"]%></td>
+          <td><%= link_to "delete", employees_delete_emp_path(@allEmpJson[iterate]["eid"]), method: :POST%></td>
         </tr>
         <%iterate += 1%>
     <%end%>
