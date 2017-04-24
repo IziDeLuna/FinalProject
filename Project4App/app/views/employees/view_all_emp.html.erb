@@ -1,4 +1,6 @@
-
+<style>
+  .center {text-align: center; }
+</style>
 <nav class="navbar navbar-inverse" style="border-radius:0px;">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -13,14 +15,16 @@
   </div>
 </nav>
 
-<div class="container">
-  <div class ="jumbotron">
+<div class="container center">
+  <div class ="jumbotron ">
     <h2>Welcome to All Employees Page </h2>
 
     <%= link_to '<button type="button">Add New Employee</button>'.html_safe, new_employees_url %>
     <%= link_to '<button type="button">View All Projects</button>'.html_safe, employees_view_all_pro_url %>
+    <%= link_to '<button type="button">View All Active Projects</button>'.html_safe, employees_view_all_act_pro_url%>
+
   </div>
-  <h2>All Employees</h2>
+  <h2 class="center">All Employees</h2>
   <table class="table table-bordered table-hover">
     <thead>
     <td>User Name</td>
@@ -39,12 +43,24 @@
           <td>
             <%= @allEmpJson[iterate]["firstname"]%>
           </td>
+<<<<<<< HEAD
           <td><%= @allEmpJson[iterate]["lastname"]%></td>
           <td><%= @allEmpJson[iterate]["supervisor"]%></td>
           <td><%= link_to "delete", employees_delete_emp_path(@allEmpJson[iterate]["eid"]), method: :POST%></td>
+=======
+          <td>
+            <%= @allEmpJson[iterate]["lastname"]%>
+          </td>
+          <td>
+            <%= @allEmpJson[iterate]["supervisor"]%>
+          </td>
+>>>>>>> origin/master
         </tr>
         <%iterate += 1%>
     <%end%>
     </tbody>
   </table>
+
+
+
 </div>

@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+  .center {text-align: center; }
+</style>
+
+<nav class="navbar navbar-inverse" style="border-radius:0px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Project 4</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Projects</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="../welcome/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+
 <head>
   <meta charset="UTF-8">
   <title>New Project</title>
 </head>
-<body>
-<h3>Add Employee</h3>
+<body class="center">
+<h3>Add A New Project</h3>
 <%= form_for :add_pro, url: "/employees/add_pro_create" do |f| %>
     <p>
-      <%=f.label :pname %><br>
+      <%=f.label "Project Name" %><br>
       <%= f.text_area :pname %>
     </p>
     <p>

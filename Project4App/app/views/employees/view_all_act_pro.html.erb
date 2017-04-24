@@ -1,0 +1,38 @@
+<style>
+  .center {text-align: center; }
+</style>
+
+<nav class="navbar navbar-inverse" style="border-radius:0px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Project 4</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Projects</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="../welcome/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class ="jumbotron center">
+    <h2 >Welcome to Active Projects Page </h2>
+
+    <%= link_to '<button type="button">View All Employee</button>'.html_safe, new_employees_url %>
+    <%= link_to '<button type="button">View All Projects</button>'.html_safe, employees_view_all_pro_url %>
+    <%= link_to '<button type="button">Assign A New Project</button>'.html_safe, employees_view_all_act_pro_url%>
+  </div>
+  <h2 class="center">All Active Projects</h2>
+
+  <table class="table table-bordered table-hover">
+    <thead>
+    <td>Employee Name</td>
+    <td>Project</td>
+    <td>Supervisor</td>
+    </thead>
+
+
+
+  </table>
+</div>
