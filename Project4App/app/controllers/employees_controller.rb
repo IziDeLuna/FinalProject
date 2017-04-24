@@ -21,6 +21,24 @@ class EmployeesController < ApplicationController
     redirect_to(employees_view_all_emp_url)
 
   end
+  def delete_pro
+
+    @pid = params["format"]
+
+    @pid = ActiveRecord::Base.connection.exec_query %Q{CALL pDeletePro('#{@pid}')}
+    ActiveRecord::Base.clear_active_connections!
+
+    redirect_to(employees_view_all_pro_url)
+
+  end
+  def delete_emp
+    @eid = params["format"]
+
+    @eid = ActiveRecord::Base.connection.exec_query %Q{CALL eDeleteEmp('#{@eid}')}
+    ActiveRecord::Base.clear_active_connections!
+
+    redirect_to(employees_view_all_emp_url)
+  end
   def add_pro_new
 
   end
