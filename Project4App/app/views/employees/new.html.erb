@@ -28,30 +28,40 @@
   <h2>Add Employee </h2>
 </div>
 <body class="center">
+<div class = "content-box">
 <%= form_for :add_emp, url: employees_path do |f| %>
-    <p>
+      <div class ="row">
+    <div class = "col-md-4">
       <%=f.label :username %><br>
-      <%= f.text_area :username %>
-    </p>
-    <p>
+      <%= f.text_field :username,class:'form-control' %>
+    </div>
+    <div class="col-md-4">
       <%=f.label :password %><br>
-      <%= f.text_area :password %>
-    </p>
-    <p>
+      <%= f.text_field :password,class:'form-control'  %>
+    </div>
+      </div>
+      <div class ="row">
+    <div class = "col-md-4">
       <%=f.label :firstname %><br>
-      <%= f.text_area :firstname %>
-    </p>
-    <p>
+      <%= f.text_field :firstname ,class:'form-control' %>
+    </div>
+    <div class = "col-md-4">
       <%=f.label :lastname %><br>
-      <%= f.text_area :lastname %>
-    </p>
-    <p>
+      <%= f.text_field :lastname,class:'form-control'  %>
+    </div>
+
+    <div class = "col-md-2">
       <%=f.label :supervisor %><br>
-      <%= f.text_area :supervisor %>
-    </p>
-    <p>
-      <%= f.submit "Add Employee" %>
-    </p>
+      <%= f.select :supervisor,[['Yes','1'],['No','0']],class:'dropdown-menu'  %>
+    </div>
+      </div>
+      &nbsp;
+      <div class = "row">
+    <div class = "col-md-4">
+      <%= f.submit "Add Employee",class:'btn btn-primary'  %>
+    </div>
+      </div>
   <% end %>
+  </div>
 </body>
 </html>
