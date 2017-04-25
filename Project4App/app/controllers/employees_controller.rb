@@ -88,7 +88,6 @@ class EmployeesController < ApplicationController
     @count = @allProJson.length
   end
 
-<<<<<<< HEAD
   def view_all_act_pro
     #setting defualt variables for page
     @pp = -1
@@ -126,7 +125,5 @@ class EmployeesController < ApplicationController
       i += 1
     end
   end
-=======
 
->>>>>>> origin/master
 end
