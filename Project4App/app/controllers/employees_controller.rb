@@ -78,4 +78,42 @@ class EmployeesController < ApplicationController
 
     @count = @allProJson.length
   end
+
+  def view_all_act_pro
+    #setting defualt variables for page
+    @pp = -1
+
+    #Retrieve and parse the current project
+    @allProject = ActiveRecord::Base.connection.exec_query %Q{CALL pGetAllPro()}
+    ActiveRecord::Base.clear_active_connections!
+
+    #convert ActiveRecord object to json
+    @jsonObject = @allProject.as_json
+    i = 0
+    @sup = String.new
+    @supArray = Array.new
+    @ProjectSups = Array.new
+    @ProjectEmps = Array.new
+    @counter = @jsonObject.length
+    @supp = []
+
+    while i < @jsonObject.length do
+      @pp = @jsonObject[i]["pid"]
+      @ProjectSups[i] = ActiveRecord::Base.connection.exec_query %Q{CALL pGetProjectSupervisors('#{@pp}')}
+      ActiveRecord::Base.clear_active_connections!
+      j = 0
+      @supArray[i] = @ProjectSups[i].as_json
+      while j < @supArray[i].length do
+        @sup += @supArray[i][j]["firstname"] +" "+
+            @supArray[i][j]["lastname"] + ", "
+        j += 1
+      end
+      @supp[i] = @sup
+
+      @ProjectEmps[i] = ActiveRecord::Base.connection.exec_query %Q{CALL pGetProjectEmps('{#@pp}')}
+      ActiveRecord::Base.clear_active_connections!
+      @ProjectEmps[i] = @ProjectEmps[i].as_json
+      i += 1
+    end
+  end
 end

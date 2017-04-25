@@ -31,6 +31,23 @@
     <td>Project</td>
     <td>Supervisor</td>
     </thead>
+    <tbody>
+    <%iterate = 0%>
+    <%while iterate < @counter  do %>
+        <tr>
+          <td>
+            <%= @ProjectEmps[iterate][0]%>
+          </td>
+          <td>
+            <%= @jsonObject[iterate]["pname"]%>
+          </td>
+          <td>
+            <%=  @supp[iterate]%>
+          </td>
+        </tr>
+        <%iterate += 1%>
+    <%end%>
+    </tbody>
 
 
 
