@@ -24,17 +24,26 @@ class EmployeesController < ApplicationController
   def delete_pro
 
     @pid = params["format"]
+    @tmp = @pid
 
     @pid = ActiveRecord::Base.connection.exec_query %Q{CALL pDeletePro('#{@pid}')}
     ActiveRecord::Base.clear_active_connections!
+
+    @tmp = ActiveRecord::Base.connection.exec_query %Q{CALL pDeleteProEmp('#{@tmp}')}
+    ActiveRecord::Base.clear_active_connections!
+
 
     redirect_to(employees_view_all_pro_url)
 
   end
   def delete_emp
     @eid = params["format"]
+    @tmp = @eid
 
     @eid = ActiveRecord::Base.connection.exec_query %Q{CALL eDeleteEmp('#{@eid}')}
+    ActiveRecord::Base.clear_active_connections!
+
+    @tmp = ActiveRecord::Base.connection.exec_query %Q{CALL eDeleteEmpPro('#{@tmp}')}
     ActiveRecord::Base.clear_active_connections!
 
     redirect_to(employees_view_all_emp_url)
@@ -78,4 +87,6 @@ class EmployeesController < ApplicationController
 
     @count = @allProJson.length
   end
+
+
 end
