@@ -15,8 +15,8 @@
     </ul>
   </div>
 </nav>
-<div class="container">
-  <div class ="jumbotron center">
+<div class="container center">
+  <div class ="jumbotron">
     <h2 >Welcome to Active Projects Page </h2>
 
     <%= link_to '<button type="button">View All Employee</button>'.html_safe, new_employees_url %>
@@ -36,7 +36,7 @@
     <%while iterate < @counter  do %>
         <tr>
           <td>
-            <%= @ProjectEmps[iterate][0]%>
+            <%= @empp[iterate]%>
           </td>
           <td>
             <%= @jsonObject[iterate]["pname"]%>

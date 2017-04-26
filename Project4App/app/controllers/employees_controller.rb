@@ -90,7 +90,7 @@ class EmployeesController < ApplicationController
 
   def view_all_act_pro
     #setting defualt variables for page
-    @pp = -1
+    @pp = 0
 
     #Retrieve and parse the current project
     @allProject = ActiveRecord::Base.connection.exec_query %Q{CALL pGetAllPro()}
@@ -100,11 +100,14 @@ class EmployeesController < ApplicationController
     @jsonObject = @allProject.as_json
     i = 0
     @sup = String.new
+    @emp = String.new
     @supArray = Array.new
+    @empArray = Array.new
     @ProjectSups = Array.new
     @ProjectEmps = Array.new
     @counter = @jsonObject.length
     @supp = []
+    @empp = []
 
     while i < @jsonObject.length do
       @pp = @jsonObject[i]["pid"]
@@ -113,15 +116,21 @@ class EmployeesController < ApplicationController
       j = 0
       @supArray[i] = @ProjectSups[i].as_json
       while j < @supArray[i].length do
-        @sup += @supArray[i][j]["firstname"] +" "+
+        @sup = @supArray[i][j]["firstname"] +" "+
             @supArray[i][j]["lastname"] + ", "
         j += 1
       end
       @supp[i] = @sup
 
-      @ProjectEmps[i] = ActiveRecord::Base.connection.exec_query %Q{CALL pGetProjectEmps('{#@pp}')}
+      @ProjectEmps[i] = ActiveRecord::Base.connection.exec_query %Q{CALL pGetEmployeeAssignment('#{@pp}')}
       ActiveRecord::Base.clear_active_connections!
-      @ProjectEmps[i] = @ProjectEmps[i].as_json
+      k = 0
+      @empArray[i] = @ProjectEmps[i].as_json
+      while k < @empArray[i].length do
+        @emp = @empArray[i][k]["firstname"] + " " + @empArray[i][k]["lastname"]
+        k += 1
+      end
+      @empp[i] = @emp
       i += 1
     end
   end
