@@ -26,7 +26,7 @@
     <td>Employee ID</td>
     <td>First Name</td>
     <td>Last Name</td>
-    <td>Supervisor</td>
+    <td>Supervisor (1=yes, 0=no)</td>
     </thead>
     <tbody>
     <%iterate = 0%>
@@ -49,4 +49,29 @@
     <%end%>
     </tbody>
   </table>
+  <h2 class="center">All Open Projects</h2>
+  <table class="table table-bordered table-hover">
+    <thead>
+      <td>Project ID</td>
+      <td>Project Name</td>
+    </thead>
+    <tbody>
+    <%iterate = 0%>
+    <%while iterate < @countp  do %>
+      <tr>
+        <td>
+          <%= @allProJson[iterate]["pid"]%>
+        </td>
+        <td>
+          <%= @allProJson[iterate]["pname"]%>
+        </td>
+      </tr>
+      <%iterate += 1%>
+    <%end%>
+    </tbody>
+  </table>
+
+
+
+  
 </div>

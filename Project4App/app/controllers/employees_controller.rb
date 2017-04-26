@@ -125,14 +125,5 @@ class EmployeesController < ApplicationController
     end
   end
   #---------------------------------------------------------------------------------------------------------------------
-  def assign_project
-    #For displaying the available employees
-    @allEmp = ActiveRecord::Base.connection.exec_query %Q{CALL eGetAllEmp()}
-    ActiveRecord::Base.clear_active_connections!
-
-    @allEmpJson = @allEmp.as_json
-
-    @counter = @allEmpJson.length
-  end
 
 end
