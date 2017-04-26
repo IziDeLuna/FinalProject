@@ -1,11 +1,4 @@
 class EmployeesController < ApplicationController
-  def index
-
-  end
-
-  def new
-
-  end
 
   def create
     #render plain: params[:post].inspect
@@ -21,6 +14,7 @@ class EmployeesController < ApplicationController
     redirect_to(employees_view_all_emp_url)
 
   end
+  #---------------------------------------------------------------------------------------------------------------------
   def delete_pro
 
     @pid = params["format"]
@@ -36,6 +30,7 @@ class EmployeesController < ApplicationController
     redirect_to(employees_view_all_pro_url)
 
   end
+  #---------------------------------------------------------------------------------------------------------------------
   def delete_emp
     @eid = params["format"]
     @tmp = @eid
@@ -48,9 +43,7 @@ class EmployeesController < ApplicationController
 
     redirect_to(employees_view_all_emp_url)
   end
-  def add_pro_new
-
-  end
+  #---------------------------------------------------------------------------------------------------------------------
   def add_pro_create
 
     @pname = params[:add_pro][:pname]
@@ -65,19 +58,16 @@ class EmployeesController < ApplicationController
 
 
   end
+  #---------------------------------------------------------------------------------------------------------------------
   def view_all_emp
-
     @allEmp = ActiveRecord::Base.connection.exec_query %Q{CALL eGetAllEmp()}
     ActiveRecord::Base.clear_active_connections!
 
     @allEmpJson = @allEmp.as_json
 
     @counter = @allEmpJson.length
-
-
-
   end
-
+  #---------------------------------------------------------------------------------------------------------------------
   def view_all_pro
 
     @allPro = ActiveRecord::Base.connection.exec_query %Q{CALL pGetAllPro()}
@@ -87,7 +77,7 @@ class EmployeesController < ApplicationController
 
     @count = @allProJson.length
   end
-
+  #---------------------------------------------------------------------------------------------------------------------
   def view_all_act_pro
     #setting defualt variables for page
     @pp = 0
@@ -133,6 +123,16 @@ class EmployeesController < ApplicationController
       @empp[i] = @emp
       i += 1
     end
+  end
+  #---------------------------------------------------------------------------------------------------------------------
+  def assign_project
+    #For displaying the available employees
+    @allEmp = ActiveRecord::Base.connection.exec_query %Q{CALL eGetAllEmp()}
+    ActiveRecord::Base.clear_active_connections!
+
+    @allEmpJson = @allEmp.as_json
+
+    @counter = @allEmpJson.length
   end
 
 end

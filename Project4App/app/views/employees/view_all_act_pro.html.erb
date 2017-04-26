@@ -15,13 +15,14 @@
     </ul>
   </div>
 </nav>
+
 <div class="container center">
   <div class ="jumbotron">
     <h2 >Welcome to Active Projects Page </h2>
 
-    <%= link_to '<button type="button">View All Employee</button>'.html_safe, new_employees_url %>
-    <%= link_to '<button type="button">View All Projects</button>'.html_safe, employees_view_all_pro_url %>
-    <%= link_to '<button type="button">Assign A New Project</button>'.html_safe, employees_view_all_act_pro_url%>
+    <%= link_to '<button type="button" class ="btn btn-primary">View All Employee</button>'.html_safe, employees_view_all_emp_url %>
+    <%= link_to '<button type="button" class ="btn btn-primary">View All Projects</button>'.html_safe, employees_view_all_pro_url %>
+    <%= link_to '<button type="button" class ="btn btn-primary">Assign A New Project</button>'.html_safe, projects_assign_project_url%>
   </div>
   <h2 class="center">All Active Projects</h2>
 

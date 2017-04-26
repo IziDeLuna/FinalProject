@@ -1,0 +1,52 @@
+<style>
+  .center {text-align: center; }
+</style>
+<nav class="navbar navbar-inverse" style="border-radius:0px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Project 4</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Projects</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="../welcome/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container center">
+  <div class ="jumbotron">
+    <h2 >Assign new Project</h2>
+  </div>
+
+  <h2 class="center">All Employees</h2>
+  <table class="table table-bordered table-hover">
+    <thead>
+    <td>Employee ID</td>
+    <td>First Name</td>
+    <td>Last Name</td>
+    <td>Supervisor</td>
+    </thead>
+    <tbody>
+    <%iterate = 0%>
+    <%while iterate < @counter  do %>
+        <tr>
+          <td>
+            <%= @allEmpJson[iterate]["eid"]%>
+          </td>
+          <td>
+            <%= @allEmpJson[iterate]["firstname"]%>
+          </td>
+          <td>
+            <%= @allEmpJson[iterate]["lastname"]%>
+          </td>
+          <td>
+            <%= @allEmpJson[iterate]["supervisor"]%>
+          </td>
+        </tr>
+        <%iterate += 1%>
+    <%end%>
+    </tbody>
+  </table>
+</div>
