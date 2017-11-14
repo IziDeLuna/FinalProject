@@ -262,6 +262,18 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/backports-3.10.3/frozen_old_spec" />
       </SOURCES>
     </library>
+    <library name="bcrypt (v3.1.11, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/bcrypt/3.1.11" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11-x86-mingw32/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11-x86-mingw32/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/bcrypt/3.1.11" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11-x86-mingw32/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11-x86-mingw32/lib" />
+      </SOURCES>
+    </library>
     <library name="bindex (v0.5.0, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/bindex/0.5.0" />
@@ -354,6 +366,14 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/coffee-script-source-1.12.2/lib" />
       </SOURCES>
     </library>
+    <library name="colored (v1.2, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/colored-1.2/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/colored-1.2/lib" />
+      </SOURCES>
+    </library>
     <library name="concurrent-ruby (v1.0.4, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/concurrent-ruby-1.0.4/lib" />
@@ -432,6 +452,16 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/ffi-1.9.18-x86-mingw32/gen" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/ffi-1.9.18-x86-mingw32/lib" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/ffi-1.9.18-x86-mingw32/libtest" />
+      </SOURCES>
+    </library>
+    <library name="gemrat (v0.4.6, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/gemrat-0.4.6/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/gemrat-0.4.6/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/gemrat-0.4.6/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/gemrat-0.4.6/lib" />
       </SOURCES>
     </library>
     <library name="globalid (v0.3.7, ruby-2.3.3-p222) [gem]">
@@ -1040,6 +1070,18 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rake-12.0.0/bin" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rake-12.0.0/exe" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rake-12.0.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="rake (v12.2.1, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rake-12.2.1/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rake-12.2.1/exe" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rake-12.2.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rake-12.2.1/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rake-12.2.1/exe" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rake-12.2.1/lib" />
       </SOURCES>
     </library>
     <library name="rb-fsevent (v0.10.2, ruby-2.3.3-p222) [gem]">

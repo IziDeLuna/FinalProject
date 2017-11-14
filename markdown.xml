@@ -1,0 +1,5 @@
+<application>
+  <component name="MarkdownApplicationSettings">
+    <MarkdownCssSettings StylesheetUri="jar:file:/C:/Program%20Files%20(x86)/JetBrains/RubyMine%202016.3.2/plugins/markdown/lib/markdown.jar!/org/intellij/plugins/markdown/settings/darcula.css" />
+  </component>
+</application>
