@@ -30,8 +30,10 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="sqlite.xerial" name="Sqlite (Xerial)" dialect="SQLite">
-      <artifact name="Xerial SQLiteJDBC" use="true" />
+      <artifact name="Xerial SQLiteJDBC" use="true" version="3.16.1" />
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <property name="enable_load_extension" value="true" />
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/MySQL Connector/J/5.1.40/mysql-connector-license.txt</url>
       </library>
