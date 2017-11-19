@@ -320,6 +320,10 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/builder-3.2.3/rakelib" />
       </SOURCES>
     </library>
+    <library name="bundle (v0.0.1, ruby-2.3.3-p222) [gem]">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="bundler (v1.13.7, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/bin" />
