@@ -274,6 +274,16 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/backports-3.10.3/frozen_old_spec" />
       </SOURCES>
     </library>
+    <library name="bcrypt (v3.1.11, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-3.1.11/lib" />
+      </SOURCES>
+    </library>
     <library name="bcrypt-ruby (v3.1.5, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/bcrypt-ruby-3.1.5-x86-mingw32/lib" />
