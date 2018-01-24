@@ -1,5 +1,6 @@
 <application>
   <component name="RailsApplicationSettings">
+    <option name="wizardRailsFacetPreconfigureDBName" value="sqlite3" />
     <option name="wizardRailsFacetTemplates">
       <array>
         <option value="" />
