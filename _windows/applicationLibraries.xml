@@ -658,6 +658,18 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/do_sqlite3-0.10.17-x86-mingw32/tasks" />
       </SOURCES>
     </library>
+    <library name="domain_name (v0.5.20170404, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/data" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/tool" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/data" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/domain_name-0.5.20170404/tool" />
+      </SOURCES>
+    </library>
     <library name="erubis (v2.7.0, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/erubis-2.7.0/bin" />
@@ -738,6 +750,46 @@
       </CLASSES>
       <SOURCES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/globalid-0.4.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="http (v3.0.0, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http-3.0.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http-3.0.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="http-cookie (v1.0.3, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http-cookie-1.0.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="http-form_data (v2.1.0, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http-form_data-2.1.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http-form_data-2.1.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="http_parser.rb (v0.6.0, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/http_parser.rb/0.6.0" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.6.0/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.6.0/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.6.0/bench" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.6.0/tasks" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/http_parser.rb/0.6.0" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.6.0/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.6.0/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.6.0/bench" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/http_parser.rb-0.6.0/tasks" />
       </SOURCES>
     </library>
     <library name="i18n (v0.7.0, ruby-2.3.3-p222) [gem]">
@@ -1118,6 +1170,14 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib" />
       </SOURCES>
     </library>
+    <library name="multi_xml (v0.6.0, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/multi_xml-0.6.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/multi_xml-0.6.0/lib" />
+      </SOURCES>
+    </library>
     <library name="mustermann (v1.0.1, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mustermann-1.0.1/lib" />
@@ -1152,6 +1212,16 @@
       <SOURCES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/net-telnet-0.1.1/bin" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/net-telnet-0.1.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="net_http_ssl_fix (v0.0.9, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/net_http_ssl_fix-0.0.9/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/net_http_ssl_fix-0.0.9/data" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/net_http_ssl_fix-0.0.9/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/net_http_ssl_fix-0.0.9/data" />
       </SOURCES>
     </library>
     <library name="nio4r (v1.2.1, ruby-2.3.3-p222) [gem]">
@@ -2026,6 +2096,24 @@
       </CLASSES>
       <SOURCES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/uglifier-4.1.4/lib" />
+      </SOURCES>
+    </library>
+    <library name="unf (v0.1.4, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/unf-0.1.4/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/unf-0.1.4/lib" />
+      </SOURCES>
+    </library>
+    <library name="unf_ext (v0.0.7.5, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/unf_ext-0.0.7.5-x86-mingw32/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/unf_ext-0.0.7.5-x86-mingw32/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/unf_ext-0.0.7.5-x86-mingw32/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/unf_ext-0.0.7.5-x86-mingw32/lib" />
       </SOURCES>
     </library>
     <library name="uuidtools (v2.1.5, ruby-2.3.3-p222) [gem]">
