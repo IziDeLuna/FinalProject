@@ -718,6 +718,16 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/ffi-1.9.18-x86-mingw32/libtest" />
       </SOURCES>
     </library>
+    <library name="ffi (v1.9.23, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/ffi-1.9.23-x86-mingw32/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/ffi-1.9.23-x86-mingw32/samples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/ffi-1.9.23-x86-mingw32/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/ffi-1.9.23-x86-mingw32/samples" />
+      </SOURCES>
+    </library>
     <library name="gemrat (v0.4.6, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/gemrat-0.4.6/bin" />
@@ -846,6 +856,16 @@
       <SOURCES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/i18n-0.9.3/lib" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/i18n-0.9.3/gemfiles" />
+      </SOURCES>
+    </library>
+    <library name="i18n (v0.9.5, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/i18n-0.9.5/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/i18n-0.9.5/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/i18n-0.9.5/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/i18n-0.9.5/gemfiles" />
       </SOURCES>
     </library>
     <library name="io-console (v0.4.5, ruby-2.3.3-p222) [gem]">
@@ -1032,6 +1052,16 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/loofah-2.1.1/benchmark" />
       </SOURCES>
     </library>
+    <library name="loofah (v2.2.0, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/loofah-2.2.0/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/loofah-2.2.0/benchmark" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/loofah-2.2.0/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/loofah-2.2.0/benchmark" />
+      </SOURCES>
+    </library>
     <library name="mail (v2.6.4, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/mail-2.6.4/lib" />
@@ -1152,6 +1182,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/minitest-5.11.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="minitest (v5.11.3, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/minitest-5.11.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/minitest-5.11.3/lib" />
       </SOURCES>
     </library>
     <library name="minitest (v5.8.5, ruby-2.3.3-p222) [gem]">
@@ -1372,6 +1410,26 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.1-x86-mingw32/suppressions" />
       </SOURCES>
     </library>
+    <library name="nokogiri (v1.8.2, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/nokogiri/1.8.2" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/tasks" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/patches" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/suppressions" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/nokogiri/1.8.2" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/tasks" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/patches" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/nokogiri-1.8.2-x86-mingw32/suppressions" />
+      </SOURCES>
+    </library>
     <library name="pg (v0.19.0, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/pg-0.19.0-x86-mingw32/ext" />
@@ -1418,6 +1476,22 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.2/ext" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.2/lib" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.2/tools" />
+      </SOURCES>
+    </library>
+    <library name="puma (v3.11.3, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/puma/3.11.3" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.3/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.3/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.3/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.3/tools" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/puma/3.11.3" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.3/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.3/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.3/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/puma-3.11.3/tools" />
       </SOURCES>
     </library>
     <library name="puma (v3.8.2, ruby-2.3.3-p222) [gem]">
@@ -1486,6 +1560,20 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.3/lib" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.3/contrib" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.3/example" />
+      </SOURCES>
+    </library>
+    <library name="rack (v2.0.4, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.4/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.4/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.4/contrib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.4/example" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.4/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.4/lib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.4/contrib" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rack-2.0.4/example" />
       </SOURCES>
     </library>
     <library name="rack-protection (v2.0.0, ruby-2.3.3-p222) [gem]">
@@ -1660,6 +1748,20 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rb-fsevent-0.10.2/bin" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rb-fsevent-0.10.2/ext" />
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rb-fsevent-0.10.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="rb-fsevent (v0.10.3, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/rb-fsevent/0.10.3" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rb-fsevent-0.10.3/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rb-fsevent-0.10.3/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rb-fsevent-0.10.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs23/rb-fsevent/0.10.3" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rb-fsevent-0.10.3/bin" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rb-fsevent-0.10.3/ext" />
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/rb-fsevent-0.10.3/lib" />
       </SOURCES>
     </library>
     <library name="rb-inotify (v0.9.10, ruby-2.3.3-p222) [gem]">
@@ -2066,6 +2168,14 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.4/lib" />
       </SOURCES>
     </library>
+    <library name="tzinfo (v1.2.5, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.5/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/tzinfo-1.2.5/lib" />
+      </SOURCES>
+    </library>
     <library name="tzinfo-data (v1.2017.1, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/tzinfo-data-1.2017.1/lib" />
@@ -2090,6 +2200,14 @@
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/tzinfo-data-1.2017.3/lib" />
       </SOURCES>
     </library>
+    <library name="tzinfo-data (v1.2018.3, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/tzinfo-data-1.2018.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/tzinfo-data-1.2018.3/lib" />
+      </SOURCES>
+    </library>
     <library name="uglifier (v3.1.9, ruby-2.3.3-p222) [gem]">
       <CLASSES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/uglifier-3.1.9/lib" />
@@ -2112,6 +2230,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/uglifier-4.1.4/lib" />
+      </SOURCES>
+    </library>
+    <library name="uglifier (v4.1.7, ruby-2.3.3-p222) [gem]">
+      <CLASSES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/uglifier-4.1.7/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/uglifier-4.1.7/lib" />
       </SOURCES>
     </library>
     <library name="unf (v0.1.4, ruby-2.3.3-p222) [gem]">
